@@ -3,7 +3,7 @@ A simple DI framework for .NET that is based around Attribute to avoid need for 
 
 ## License
 
-Copyright 2015 Wiyono Aten
+Copyright 2016 Wiyono Aten
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
