@@ -103,7 +103,7 @@ namespace DIY
         {
             foreach (var constructor in type.GetTypeInfo().DeclaredConstructors)
             {
-                if (constructor.GetParameters().Length == 0)
+                if (!constructor.IsStatic && constructor.GetParameters().Length == 0)
                 {
                     return constructor;
                 }
